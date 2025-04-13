@@ -14,7 +14,7 @@ body,
 
 .sidebar {
   width: 300px;
-  background-color: #f10303;
+  background-color: #ffffff;
   padding: 1rem;
   border-right: 1px solid #f4f3f7;
 }
@@ -48,14 +48,14 @@ body,
 }
 
 .expense-table th {
-  background-color: #f4f4f4;
+  background-color: #000000;
   cursor: pointer;
 }
 
 button {
   padding: 6px 10px;
   background: rgb(252, 1, 1);
-  color: white;
+  color: rgb(253, 253, 253);
   border: none;
   cursor: pointer;
   border-radius: 4px;
