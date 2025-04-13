@@ -1,0 +1,81 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-right: 1px solid #f4f3f7;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-wrapper {
+  flex: 1;
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgb(0, 0, 0);
+}
+
+.expense-table th,
+.expense-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.expense-table th {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+button {
+  padding: 6px 10px;
+  background: rgb(252, 1, 1);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: darkred;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-input {
+  margin-bottom: 1rem;
+  padding: 8px;
+  width: 100%;
+  max-width: 400px;
+}
