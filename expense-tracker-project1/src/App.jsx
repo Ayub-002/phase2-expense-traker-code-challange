@@ -6,11 +6,7 @@ import './App.css'
 
 function App() {
   const [expenses, setExpenses] = useState([
-    { id: 1, description: 'Light Mumu', category: 'food', amount: 100, date: '2025-04-08' },
-    { id: 2, description: 'NYC taxes', category: 'utilities', amount: 2000, date: '2025-04-05' },
-    { id: 3, description: 'Buy shoes', category: 'personal', amount: 5000, date: '2025-04-06' },
-    { id: 4, description: 'Buy book', category: 'growth', amount: 10000, date: '2025-04-07' },
-  ])
+    ])
 
   const [searchTerm, setSearchTerm] = useState('')
   const [sortBy, setSortBy] = useState('')
